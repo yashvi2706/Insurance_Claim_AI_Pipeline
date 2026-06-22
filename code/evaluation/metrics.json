@@ -1,0 +1,73 @@
+{
+  "conversation_only_baseline": {
+    "rows": 20,
+    "field_accuracy": {
+      "evidence_standard_met": 0.9,
+      "risk_flags": 0.55,
+      "issue_type": 0.45,
+      "object_part": 0.75,
+      "claim_status": 0.65,
+      "supporting_image_ids": 0.75,
+      "valid_image": 0.9,
+      "severity": 0.55
+    },
+    "mean_field_accuracy": 0.6875,
+    "claim_status_macro_f1": 0.2626,
+    "expected_status_distribution": {
+      "supported": 13,
+      "contradicted": 5,
+      "not_enough_information": 2
+    },
+    "predicted_status_distribution": {
+      "supported": 20
+    }
+  },
+  "conversation_plus_history_baseline": {
+    "rows": 20,
+    "field_accuracy": {
+      "evidence_standard_met": 0.9,
+      "risk_flags": 0.55,
+      "issue_type": 0.45,
+      "object_part": 0.75,
+      "claim_status": 0.65,
+      "supporting_image_ids": 0.75,
+      "valid_image": 0.9,
+      "severity": 0.55
+    },
+    "mean_field_accuracy": 0.6875,
+    "claim_status_macro_f1": 0.2626,
+    "expected_status_distribution": {
+      "supported": 13,
+      "contradicted": 5,
+      "not_enough_information": 2
+    },
+    "predicted_status_distribution": {
+      "supported": 20
+    }
+  },
+  "vision_pipeline": {
+    "rows": 20,
+    "field_accuracy": {
+      "evidence_standard_met": 0.7,
+      "risk_flags": 0.45,
+      "issue_type": 0.6,
+      "object_part": 0.9,
+      "claim_status": 0.7,
+      "supporting_image_ids": 0.75,
+      "valid_image": 0.9,
+      "severity": 0.55
+    },
+    "mean_field_accuracy": 0.6937,
+    "claim_status_macro_f1": 0.5526,
+    "expected_status_distribution": {
+      "supported": 13,
+      "contradicted": 5,
+      "not_enough_information": 2
+    },
+    "predicted_status_distribution": {
+      "supported": 12,
+      "not_enough_information": 7,
+      "contradicted": 1
+    }
+  }
+}

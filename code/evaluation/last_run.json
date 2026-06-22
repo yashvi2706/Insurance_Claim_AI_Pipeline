@@ -1,0 +1,11 @@
+{
+  "rows": 20,
+  "images": 29,
+  "model_calls": 20,
+  "elapsed_seconds": 1.388,
+  "usage": {
+    "input_tokens": 44950,
+    "output_tokens": 2874,
+    "total_tokens": 47824
+  }
+}
